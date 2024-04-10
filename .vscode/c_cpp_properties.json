@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "configurations": [
     {
       "name": "windows-gcc-x64",
@@ -37,4 +38,25 @@
     ],
     "version": 4
 >>>>>>> 83878d2b58966583a145e4c3210ec32fb7ec97c9
+=======
+  "configurations": [
+    {
+      "name": "windows-clang-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "windowsSdkVersion": "10.0.22621.0",
+      "compilerPath": "cl.exe",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-clang-x64"
+    }
+  ],
+  "version": 4
+>>>>>>> 0ffa8bfe57d69dcff5e607dcaef0337cb0a03849
 }
