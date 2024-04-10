@@ -1,0 +1,40 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe 활성 파일 빌드",
+<<<<<<< HEAD
+            "command": "C:/mingw64/bin/gcc.exe",
+=======
+            "command": "C:\\mingw64\\bin\\gcc.exe",
+>>>>>>> 83878d2b58966583a145e4c3210ec32fb7ec97c9
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+<<<<<<< HEAD
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                ""
+            ],
+            "options": {
+                "cwd": "C:/mingw64/bin"
+=======
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+>>>>>>> 83878d2b58966583a145e4c3210ec32fb7ec97c9
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "디버거에서 생성된 작업입니다."
+        }
+    ],
+    "version": "2.0.0"
+}
