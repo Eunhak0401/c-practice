@@ -1,4 +1,4 @@
-// ë°˜ë³µë¬¸
+// ë°˜ë³µë¬?
 // for, while, do while
 /*
 #include <stdio.h>
@@ -29,10 +29,10 @@ if (i > 5)
 #include <stdio.h>
     void main(){
         int i;
-        // 1. ë£¨í”„ì˜ ì´ˆê¸°ê°’
-        // 2. ì¢…ê²° ì»¨ë””ì…˜
-        // 3. ë‚´ìš©ì„ ì‹¤í–‰
-        // 4. ì´í›„ì— ì–´ë–¤ ì—°ì‚°ì„ í• ê±´ì§€ 
+        // 1. ë£¨í”„?˜ ì´ˆê¸°ê°?
+        // 2. ì¢…ê²° ì»¨ë””?…˜
+        // 3. ?‚´?š©?„ ?‹¤?–‰
+        // 4. ?´?›„?— ?–´?–¤ ?—°?‚°?„ ?• ê±´ì?? 
 
         for(i=10; i>0; i--){
             printf("hello world %d\n", i);
@@ -52,7 +52,8 @@ if (i > 5)
         }
         
     }
-*/
+    
+
 #include <stdio.h>
     void main(){
         int i;
@@ -63,6 +64,27 @@ if (i > 5)
             i++;
         }while (i<10);
     }
+    */
+   #define _CRT_SECURE_NO_WARNINGS
+   #include <stdio.h>
+
+    int main(void){
+        int a, b, result;
+
+        
+        printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+        scanf("%d", &a);
+
+        printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+        scanf("%d", &b);
+
+        result = a / b ;
+        printf("°á°ú´Â : %d / %d = %d", a, b, result);
+    }
+   
+   
+
+
         
             
         
