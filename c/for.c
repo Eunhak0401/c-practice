@@ -64,27 +64,47 @@ if (i > 5)
             i++;
         }while (i<10);
     }
-    */
+    
    #define _CRT_SECURE_NO_WARNINGS
    #include <stdio.h>
+    void main(){
 
-    int main(void){
-        int a, b, result;
+        char a;
+        int b, c, d, result;
+    
+        printf("연산 선택 (+ 또는 *) ==> ");
+        scanf("%s", &a);
 
-        
-        printf("정수를 입력하세요: ");
-        scanf("%d", &a);
-
-        printf("정수를 입력하세요: ");
+        printf("첫 번째 값 ==> \n");
         scanf("%d", &b);
+        printf("두 번째 값 ==> \n");
+        scanf("%d", &c);
+        printf("세 번째 값 ==> \n");
+        scanf("%d", &d);
 
-        result = a / b ;
-        printf("결과는 : %d / %d = %d", a, b, result);
+        if(a == '+'){
+            result = b + c + d;
+            printf("%d + %d + %d = %d\n", b, c, d, result);
+        }
+        if(a == '*'){
+            result = b * c * d;
+            printf("%d * %d * %d = %d", b, c, d, result);
+        }
     }
-   
-   
+   */
+#include <stdio.h>
 
+void main(){
+    
 
+    float a = 2.0f, b=3.0f, c=4.0f;
+    float result;
+
+    result = a + b + c;
+    printf("%5.2f + %5.2f = %5.2f", a, b, result);
+    result = a - b - c;
+    printf("%5.2f - %5.2f = %5.2f", a, b, result);
+}
         
             
         
