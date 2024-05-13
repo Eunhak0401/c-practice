@@ -1,4 +1,4 @@
-// ë°˜ë³µë¬?
+// ë°˜ë³µï¿½?
 // for, while, do while
 /*
 #include <stdio.h>
@@ -29,10 +29,10 @@ if (i > 5)
 #include <stdio.h>
     void main(){
         int i;
-        // 1. ë£¨í”„?˜ ì´ˆê¸°ê°?
-        // 2. ì¢…ê²° ì»¨ë””?…˜
-        // 3. ?‚´?š©?„ ?‹¤?–‰
-        // 4. ?´?›„?— ?–´?–¤ ?—°?‚°?„ ?• ê±´ì?? 
+        // 1. ë£¨í”„?ï¿½ï¿½ ì´ˆê¸°ï¿½?
+        // 2. ì¢…ê²° ì»¨ë””?ï¿½ï¿½
+        // 3. ?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½
+        // 4. ?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½ ?ï¿½ï¿½ê±´ï¿½?? 
 
         for(i=10; i>0; i--){
             printf("hello world %d\n", i);
@@ -72,14 +72,14 @@ if (i > 5)
         char a;
         int b, c, d, result;
     
-        printf("¿¬»ê ¼±ÅÃ (+ ¶Ç´Â *) ==> ");
+        printf("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ (+ ï¿½Ç´ï¿½ *) ==> ");
         scanf("%s", &a);
 
-        printf("Ã¹ ¹øÂ° °ª ==> \n");
+        printf("Ã¹ ï¿½ï¿½Â° ï¿½ï¿½ ==> \n");
         scanf("%d", &b);
-        printf("µÎ ¹øÂ° °ª ==> \n");
+        printf("ï¿½ï¿½ ï¿½ï¿½Â° ï¿½ï¿½ ==> \n");
         scanf("%d", &c);
-        printf("¼¼ ¹øÂ° °ª ==> \n");
+        printf("ï¿½ï¿½ ï¿½ï¿½Â° ï¿½ï¿½ ==> \n");
         scanf("%d", &d);
 
         if(a == '+'){
@@ -91,7 +91,7 @@ if (i > 5)
             printf("%d * %d * %d = %d", b, c, d, result);
         }
     }
-   */
+  
 #include <stdio.h>
 
 void main(){
@@ -104,6 +104,27 @@ void main(){
     printf("%5.2f + %5.2f = %5.2f", a, b, result);
     result = a - b - c;
     printf("%5.2f - %5.2f = %5.2f", a, b, result);
+}
+*/
+#include <stdio.h>
+
+int main(void)
+{
+    int krw = 0; 
+    double exchange_rate = 0; 
+    double usd = 0;
+
+    printf("KRW? "); 
+    scanf("%d", &krw); 
+
+    printf("ì›/ë‹¬ëŸ¬ í™˜ìœ¨? "); 
+    scanf("%lf", &exchange_rate);
+
+    usd = krw * exchange_rate;
+
+    printf("KRW %d = USD %.1f\n", krw, usd); 
+
+    return 0;
 }
         
             
